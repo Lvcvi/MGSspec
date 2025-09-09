@@ -104,8 +104,8 @@ Companion Backlog: See `docs/MGAclient_Backlog.md` for a ticketized, Jira-style 
 ## 10. Preferred Tech Stack
 
 - Frontend: React 18, TypeScript, Vite, Redux Toolkit, Axios, native WebSocket, PixiJS/Phaser, Tailwind/MUI, Zod/Yup (validation), UUID v4, date-fns/luxon, i18n.
-- Backend (indicative): RGS (Node/NestJS or Java/Spring Boot), Wallet service, OAuth2/OIDC IdP, Postgres primary, Kafka (event bus), Elasticsearch/OpenSearch (audit index), S3-compatible WORM/Azure Immutable Blob for regulatory archives, Redis (caching/queues).
-- Dev Tooling: ESLint/Prettier, Jest/Vitest, Playwright, GitHub Actions/Azure DevOps, Snyk/OWASP Dependency-Check, Semgrep, Trivy, SonarQube.
+- Backend (indicative): RGS (Node/NestJS or Java/Spring Boot), Wallet service, OAuth2/OIDC IdP, Postgres primary, Kafka (event bus), Elasticsearch/OpenSearch (audit index), AWS S3 Object Lock (WORM) for regulatory archives, Redis (caching/queues).
+- Dev Tooling: ESLint/Prettier, Jest/Vitest, Playwright, GitHub Actions/GitLab CI, Snyk/OWASP Dependency-Check, Semgrep, Trivy, SonarQube.
 
 ## 11. APIs and Contracts
 
